@@ -9,15 +9,9 @@
   </head>
   <body>
     <a-scene background="color: #333333">
-        <!-- Textured plane parallel to ground. -->
-      <a-plane id="myPlane"
-        src="#ground" 
-        height="100" 
-        width="100" 
-        position="0 0 0"
-        rotation="-90 0 0">
-      </a-plane>
+
       </a-scene>
+      
       <a-box id="myBox"
         width="2"
         height="2"
@@ -43,8 +37,15 @@
       position="1.5 1.5 -2"
       color="#D8315B" 
       shadow>
-        
       </a-entity>
+      <!-- Textured plane parallel to ground. -->
+      <a-plane id="myPlane"
+        src="#ground" 
+        height="100" 
+        width="100" 
+        position="0 0 0"
+        rotation="-90 0 0">
+      </a-plane>
     </a-scene>
   </body>
 </html>
